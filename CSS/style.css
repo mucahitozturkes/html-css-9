@@ -1,0 +1,80 @@
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --yellow: hsl(71, 73%, 54%);
+    --gray: hsl(204, 43%, 93%);
+    --blue: hsl(218, 22%, 67%);
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    font-family: Karla;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: var(--gray);
+    margin: 1rem;
+}
+
+.main {
+    max-width: 500px;
+}
+
+.card-white {
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 8px 8px 0px 0px;
+    width: 100%;
+}
+
+.card-white >*:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.card-button {
+    background-color: var(--cyan);
+    padding: 2.5rem;
+    width: 100%;
+}
+
+.card-button >*:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.card-info {
+    background-color: var(--cyan);
+    opacity: 0.8;
+    padding: 2.5rem;
+    border-radius: 0px 0px 8px 8px;
+    width: 100%;
+}
+
+.card-info >*:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: var(--yellow);
+    border: none;
+    width: 100%;
+    font-size: 1.1rem;
+    color: white;
+    height: 45px;
+    border-radius: 8px;
+    box-shadow: 0rem 4px 2rem rgb(151, 147, 147);
+}
+
+ul li {
+    list-style: none;
+    margin-left: -2.3rem;
+} 
+ 
+

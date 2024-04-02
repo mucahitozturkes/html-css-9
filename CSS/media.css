@@ -1,0 +1,18 @@
+@media (min-width: 500px) {
+    .main {
+        display: block;
+        max-width: 650px;
+    }
+
+    .card-stackV {
+        display: flex;
+        max-width: 650px;
+    }
+    
+    .card-button {
+        border-radius: 0px 0px 0px 8px;
+    }
+
+    .card-info {
+        border-radius: 0px 0px 8px 0px;
+    }

@@ -1,0 +1,63 @@
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --yellow: hsl(71, 73%, 54%);
+    --gray: hsl(204, 43%, 93%);
+    --blue: hsl(218, 22%, 67%);
+}
+
+h1 {
+    color: var(--cyan);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+h2 {
+    color: var(--yellow);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+h3 {
+    color: rgba(128, 128, 128, 0.604);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+h4 {
+    color: white;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+h5 {
+    display: flex;
+    place-items: center;
+}
+
+.span1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-right: 1rem;
+}
+
+.span2 {
+    color: var(--gray);
+    opacity: 0.7;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+h6 {
+    color: white;
+    font-weight: 200;
+    font-size: 1.1rem;
+}
+
+ul li {
+    color: white;
+    opacity: 0.7;
+    line-height: 1.5rem;
+    font-weight: 200;
+}
